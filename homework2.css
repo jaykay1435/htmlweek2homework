@@ -1,0 +1,85 @@
+#main{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+/*base code*/
+section{
+	width: 30%;
+	height: auto;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+#first{
+	background-color: #DBC1EA;
+	float: left;
+	padding: 5px 15px 10px 15px;
+	border: 3px solid #0D0D0D ;
+	margin: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#second{
+	background-color: #ACE5F3 ;
+	float: left;
+	padding: 5px 15px 10px 15px;
+	border: 3px solid #0D0D0D ;
+	margin: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#third{
+	background-color: #F7E498 ;
+	float: left;
+	padding: 5px 15px 10px 15px;
+	border: 3px solid #0D0D0D ;
+	margin: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.jaykay{
+	position: relative;
+	width: 40%;
+	border: 3px solid #0D0D0D;
+	padding: 4px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #2F63D5 ;
+	margin: 0px;
+	left: 60.5%;
+	bottom: 7px;
+}
+
+/*for laptop*/
+@media (min-width: 992px){
+	#first{
+		width: 30%;
+	}
+	#second{
+		width: 30%;
+	}
+	#third{
+		width: 30%;
+	}
+}
+/*for tablet*/
+@media (min-width: 767px) and (max-width: 991px) {
+	#first{
+		width: 45%;
+	}
+	#second{
+		width: 45%;
+	}
+	#third{
+		width: 45%;
+	}
+}
+/*for phone*/
+@media (max-width: 766px){
+	#first{
+		width: 100%;
+	}
+	#second{
+		width: 100%;
+	}
+	#third{
+		width: 100%;
+	}
